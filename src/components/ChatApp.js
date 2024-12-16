@@ -98,7 +98,7 @@ const ChatApp = ({namespace}) => {
                   display: 'inline-flex', 
                   justifyContent: 'center', 
                   alignItems: 'center',
-                  width: '5rem', 
+                  width: '7rem', 
                   height: '2.3rem', 
                   fontSize: '11px',}}>{stats?.toFixed(4)}</span>
               <strong>{msg.sender}: <span style={{fontWeight:'lighter'}}>{msg.message}</span> </strong>
